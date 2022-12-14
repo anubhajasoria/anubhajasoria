@@ -57,3 +57,19 @@ option {
   font-size: 16px;
   padding: 0 0 10px 0;
 }
+
+.outerEditProduct {
+  margin: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 0 0 100%;
+  flex-direction: column;
+  border-radius: 10;
+}
+
+.innerForm {
+  margin: 20px 0 0 0;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 10;
+}

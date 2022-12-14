@@ -33,6 +33,9 @@ svg {
   vertical-align: baseline;
 }
 
+.mainContent {
+  background-color: #f7f7fc;
+}
 /* .siderLayout {
   overflow-y: scroll;
 } */

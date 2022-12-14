@@ -53,26 +53,9 @@ const Category = () => {
   const [current, setCurrent] = useState(0);
 
   return (
-    <div
-      style={{
-        margin: '30px',
-        display: 'flex',
-        flexWrap: 'nowrap',
-        flex: ' 0 0 100%',
-        flexDirection: 'column',
-        backgroundColor: '#ffff',
-        borderRadius: 10,
-        padding: '20px',
-      }}
-    >
+    <div className="outerCategory">
       <SearchBar size={150} style={{ marginBottom: '20px' }} />
-      <div
-        style={{
-          width: '100%',
-          display: 'flex',
-          flexDirection: 'row',
-        }}
-      >
+      <div className="innerCategory">
         {items.map((val, i) => {
           return (
             <span

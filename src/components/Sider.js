@@ -66,9 +66,7 @@ const FixedSider = () => {
             items={items}
           />
         </Sider>
-        <Content style={{ backgroundColor: '#f7f7fc' }}>
-          {selectedMenu(display)}
-        </Content>
+        <Content className="mainContent">{selectedMenu(display)}</Content>
       </Layout>
     </>
   );

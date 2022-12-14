@@ -1,3 +1,17 @@
+.outerCoupon {
+  margin: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 0 0 100%;
+  flex-direction: column;
+  border-radius: 10;
+}
+.innerCoupon {
+  margin: 20px 0 0 0;
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 10;
+}
 .couponPageHeader {
   display: flex;
   flex-direction: row;
@@ -13,7 +27,7 @@
 }
 
 .sideMenuTitle {
-  font-family: 'MulishBold';
+  font-family: MulishBold;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 24px;

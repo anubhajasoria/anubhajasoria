@@ -39,3 +39,18 @@
   flex-direction: row;
   align-items: center;
 }
+
+.headerSubTitle {
+  font-family: MulishRegular;
+  color: #92929d;
+  font-size: 12px;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTitle {
+  font-size: 18px;
+}

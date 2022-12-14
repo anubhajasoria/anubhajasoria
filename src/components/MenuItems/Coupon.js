@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Space, Switch, Table, Tag } from 'antd';
+import { Button, Switch, Table } from 'antd';
 import { MoreOutlined } from '@ant-design/icons';
 import SearchBar from '../../elements/SearchBar';
 import './Coupon.css';
@@ -63,16 +63,7 @@ const data = [
 ];
 const Coupon = () => {
   return (
-    <div
-      style={{
-        margin: '30px',
-        display: 'flex',
-        flexWrap: 'nowrap',
-        flex: ' 0 0 100%',
-        flexDirection: 'column',
-        borderRadius: 10,
-      }}
-    >
+    <div className="outerCoupon">
       <div className="couponPageHeader">
         <span className="sideMenuTitle">Coupon</span>
         <span>
@@ -90,14 +81,7 @@ const Coupon = () => {
           </Button>
         </span>
       </div>
-      <div
-        style={{
-          margin: '20px 0 0 0',
-          padding: '20px',
-          backgroundColor: '#ffff',
-          borderRadius: 10,
-        }}
-      >
+      <div className="innerCoupon">
         <div
           style={{
             display: 'flex',

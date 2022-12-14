@@ -65,25 +65,9 @@ const data = [
 ];
 const Customer = () => {
   return (
-    <div
-      style={{
-        margin: '30px',
-        display: 'flex',
-        flexWrap: 'nowrap',
-        flex: ' 0 0 100%',
-        flexDirection: 'column',
-        borderRadius: 10,
-      }}
-    >
+    <div className="outerCustomer">
       <span className="sideMenuTitle">Customer</span>
-      <div
-        style={{
-          margin: '20px 0 0 0',
-          padding: '20px',
-          backgroundColor: '#ffff',
-          borderRadius: 10,
-        }}
-      >
+      <div className="innerCustomer">
         <div
           style={{
             display: 'flex',
