@@ -20,12 +20,16 @@
 }
 
 .ant-menu-vertical > .ant-menu-item {
-  padding: 20px !important;
-  height: 60px !important;
+  padding: 10px !important;
+  /* height: 60px !important; */
   text-align: center !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+}
+
+.ant-menu-vertical .ant-menu-item {
+  margin-block: 15px !important;
 }
 
 svg {
@@ -36,9 +40,11 @@ svg {
 .mainContent {
   background-color: #f7f7fc;
 }
-/* .siderLayout {
-  overflow-y: scroll;
-} */
+.siderLayout {
+  min-width: '100vw';
+  max-width: '100vw';
+  overflow-x: scroll;
+}
 
 /* .ant-menu-light.ant-menu-horizontal > .ant-menu-item {
   color: rgb(152, 40, 40);

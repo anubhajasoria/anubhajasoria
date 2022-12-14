@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppstoreOutlined } from '@ant-design/icons';
+import { AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import { Layout } from 'antd';
 import Category from './MenuItems/Category';
@@ -50,7 +50,7 @@ const FixedSider = () => {
       case 'sub5':
         return <Coupon />;
       default:
-        return <Category />;
+        return;
     }
   }
 
@@ -58,13 +58,35 @@ const FixedSider = () => {
     <>
       <Layout hasSider className="siderLayout">
         <Sider theme="light" collapsed>
-          <Menu
-            onClick={onClick}
-            defaultSelectedKeys={['sub1']}
-            defaultOpenKeys={['sub1']}
-            mode="inline"
-            items={items}
-          />
+          {display === 'sub5' ? (
+            <>
+              <Menu
+                onClick={onClick}
+                defaultSelectedKeys={['sub1']}
+                defaultOpenKeys={['sub1']}
+                mode="inline"
+                items={items}
+              />
+              <SettingOutlined
+                style={{
+                  fontSize: '20px',
+                  position: 'absolute',
+                  bottom: '5%',
+                  left: '40%',
+                  color: '#92929d',
+                  zIndex: '999',
+                }}
+              />
+            </>
+          ) : (
+            <Menu
+              onClick={onClick}
+              defaultSelectedKeys={['sub1']}
+              defaultOpenKeys={['sub1']}
+              mode="inline"
+              items={items}
+            />
+          )}
         </Sider>
         <Content className="mainContent">{selectedMenu(display)}</Content>
       </Layout>

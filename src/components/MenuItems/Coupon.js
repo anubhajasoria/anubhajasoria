@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Switch, Table } from 'antd';
-import { MoreOutlined } from '@ant-design/icons';
+import { MoreOutlined, SettingOutlined } from '@ant-design/icons';
 import SearchBar from '../../elements/SearchBar';
 import './Coupon.css';
 import { ReactComponent as Filter } from '../../icons/filter.svg';

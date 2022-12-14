@@ -3,6 +3,7 @@ import { List } from 'antd';
 import Card from '../../elements/Card';
 import './Category.css';
 import SearchBar from '../../elements/SearchBar';
+import useMediaQuery from 'use-media-antd-query';
 
 const food = [
   {
@@ -51,10 +52,11 @@ const items = [
 
 const Category = () => {
   const [current, setCurrent] = useState(0);
+  const colSize = useMediaQuery();
 
   return (
     <div className="outerCategory">
-      <SearchBar size={150} style={{ marginBottom: '20px' }} />
+      <SearchBar style={{ marginBottom: '20px' }} />
       <div className="innerCategory">
         {items.map((val, i) => {
           return (
@@ -79,7 +81,14 @@ const Category = () => {
           <List
             className="demo-loadmore-list"
             itemLayout="horizontal"
-            grid={{ column: 3 }}
+            grid={
+              colSize === 'xs' ||
+              colSize === 'sm' ||
+              colSize === 'md' ||
+              colSize === 'lg'
+                ? { column: 1 }
+                : { column: 3 }
+            }
             dataSource={food}
             renderItem={(item) => <Card item={item.item} price={item.price} />}
           />
@@ -90,7 +99,14 @@ const Category = () => {
           <List
             className="demo-loadmore-list"
             itemLayout="horizontal"
-            grid={{ column: 3 }}
+            grid={
+              colSize === 'xs' ||
+              colSize === 'sm' ||
+              colSize === 'md' ||
+              colSize === 'lg'
+                ? { column: 1 }
+                : { column: 3 }
+            }
             dataSource={food}
             renderItem={(item) => <Card item={item.item} price={item.price} />}
           />
