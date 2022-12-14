@@ -1,0 +1,32 @@
+.outerCard {
+  background-color: #ffff;
+  border: 1px solid #e2e2ea;
+  padding: 10px;
+  height: 35vh;
+  width: 48vh;
+  border-radius: 10px;
+  /* margin-right: 30px; */
+  margin-bottom: 30px;
+}
+
+.innerCard {
+  background-color: #e2e2ea;
+  /* border: 1px solid #92929d; */
+  border-radius: 10px;
+  height: 23vh;
+}
+
+.itemTitle {
+  font-family: MulishBold;
+  margin-top: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.itemPrice {
+  font-family: MulishBold;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #42bda1;
+  line-height: 10px;
+}

@@ -1,0 +1,59 @@
+.ant-input {
+  background-color: #f7f7fc;
+  border: 1px solid #dbd7f4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+label {
+  font-family: MulishBold;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+select {
+  background-color: #f7f7fc;
+  border: 1px solid #dbd7f4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  min-width: 100%;
+}
+
+select:focus {
+  outline: none;
+}
+
+option {
+  background-color: #f7f7fc;
+  border: 1px solid #dbd7f4;
+}
+
+.selecImage {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 10px 0;
+  align-items: center;
+}
+
+.image {
+  background-color: #e2e2ea;
+  /* border: 1px solid #92929d; */
+  border-radius: 10px;
+  height: 12vh;
+  width: 12vh;
+}
+
+.selectImageContent {
+  padding: 0 0 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectImageContent > span {
+  font-family: MulishBold;
+  font-size: 16px;
+  padding: 0 0 10px 0;
+}

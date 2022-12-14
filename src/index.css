@@ -1,13 +1,31 @@
+@font-face {
+  font-family: 'MulishBlack';
+  src: local('MulsihBlack'), url('./fonts/Mulish-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MulishLight';
+  src: local('MulsihLight'), url('./fonts/Mulish-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MulishRegular';
+  src: local('MulsihRegular'),
+    url('./fonts/Mulish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MulishBold';
+  src: local('MulsihBold'), url('./fonts/Mulish-Bold.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'MulishBlack';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'MulishBlack';
 }

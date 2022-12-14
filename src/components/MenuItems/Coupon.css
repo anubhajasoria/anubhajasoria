@@ -1,0 +1,20 @@
+.couponPageHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+  color: #92929d;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.sideMenuTitle {
+  font-family: 'MulishBold';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}

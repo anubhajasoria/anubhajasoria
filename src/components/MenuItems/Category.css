@@ -1,0 +1,52 @@
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected {
+  color: #ffff;
+  /* background-color: #ffff; */
+  /* border-bottom: 3px solid #5541d7; */
+}
+
+.ant-menu-title-content {
+  font-family: 'MulishBold';
+}
+
+.categoryMainContent {
+  padding-top: 20px;
+  /* overflow: hidden; */
+}
+
+.tabMenuTitle {
+  font-family: 'MulishBold';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+input:focus {
+  outline: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tabMenuHeader {
+  flex: 1;
+  border-bottom: 3px solid #9182f588;
+  font-family: 'MulishBold';
+  color: #92929d !important;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+.tabMenuHeaderSelected {
+  flex: 1;
+  border-bottom: 3px solid #5541d7;
+  font-family: 'MulishBold';
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}

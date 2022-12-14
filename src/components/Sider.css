@@ -1,0 +1,46 @@
+.ant-menu-light .ant-menu-item-selected {
+  background-color: #5541d7 !important;
+  color: #ffff;
+}
+
+.ant-menu-item {
+  color: #92929d;
+  /* margin: 20px; */
+}
+
+.ant-layout-sider {
+  max-width: 120px !important;
+  min-width: 120px !important;
+  width: 120px !important;
+  border-right: 1px solid #e2e2ea !important;
+}
+
+.ant-menu-vertical {
+  padding: 10px !important;
+}
+
+.ant-menu-vertical > .ant-menu-item {
+  padding: 20px !important;
+  height: 60px !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+svg {
+  display: inline;
+  vertical-align: baseline;
+}
+
+/* .siderLayout {
+  overflow-y: scroll;
+} */
+
+/* .ant-menu-light.ant-menu-horizontal > .ant-menu-item {
+  color: rgb(152, 40, 40);
+} */
+
+/* .ant-menu-light .ant-menu-horizontal .ant-menu-item-selected {
+  color: #ffff;
+} */
