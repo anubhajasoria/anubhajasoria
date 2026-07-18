@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I'm Anubha 👋
 
-<!--
-**anubhajasoria/anubhajasoria** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Full Stack Developer · React · React Native · Next.js · TypeScript · Firebase**
 
-Here are some ideas to get you started:
+4+ years shipping production web and mobile apps for teams in the US, Europe and India. Currently **Team Lead at Vyral LLC**, leading 6 engineers building **Let's Hang**, an events app — most recently I sped up event creation with request batching and caching as the product grew from 2–3 events a week to 1–2 a day.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌐 **Portfolio:** [anubhajasoria.in](https://anubhajasoria.in)
+- 💼 **LinkedIn:** [anubha-jasoria](https://www.linkedin.com/in/anubha-jasoria-b321a219a/)
+- 📫 **Email:** anubhajasoria@gmail.com
+
+## Tech I work with
+
+| | |
+|---|---|
+| **Frontend** | React, React Native (Expo), TypeScript, Redux, MobX, Zustand, Tailwind CSS, Material UI |
+| **Backend & APIs** | Firebase, GraphQL, REST, Python |
+| **Tools** | Git, Jira, Postman, Android Studio, Xcode, Vite |
+
+## About the repos here
+
+My production work — **Let's Hang** (Vyral LLC), **Tirpost** and **Bansira** (Quantum Dynamics) — lives in private company repos, so the public projects here are small demos and katas. Happy to walk through production code and architecture in an interview.
