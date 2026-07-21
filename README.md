@@ -4,7 +4,7 @@
 
 4+ years shipping production web and mobile apps for teams in the US, Europe and India. Currently **Team Lead at Vyral LLC**, leading 6 engineers building **Let's Hang**, an events app — most recently I sped up event creation with request batching and caching as the product grew from 2–3 events a week to 1–2 a day.
 
-- 🌐 **Portfolio:** [anubhajasoria.in](https://anubhajasoria.com)
+- 🌐 **Portfolio:** [anubhajasoria.com](https://anubhajasoria.com)
 - 💼 **LinkedIn:** [anubha-jasoria](https://www.linkedin.com/in/anubha-jasoria-b321a219a/)
 - 📫 **Email:** anubhajasoria@gmail.com
 
